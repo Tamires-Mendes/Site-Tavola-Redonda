@@ -1,0 +1,344 @@
+
+/*   Aqui inicia bloco do topo -------------------------------------------------------------------*/
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.topo-pg, .content {
+    margin: 0 auto;
+    width: 990px;
+    position: relative;
+}
+
+.topo{
+
+    width: 100%;
+    background-color: #49454e;
+    height: 60px;
+}
+
+.texto-sigam-nos {
+
+    padding: 7px;
+    width: 40%;
+    float: left;
+    color: rgb(238, 236, 230);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Redes-sociais ul li {
+    
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+
+.Redes-sociais {
+    width: 40%;
+    float: left;
+    margin-top: 7px;
+    cursor: pointer;   
+}
+
+.Busca {
+
+    width: 30%;
+    float: right;
+    text-align: center;
+    position: relative;
+    margin-top: -55px;
+}
+.Busca input {
+
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    background-image: url('../img/pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 1px solid #4d4b50;
+}
+
+/*   Aqui inicia bloco da logo e menu -----------------------------------------------------------------*/
+
+.cabeçalho-1{
+
+   height: 250px;
+   float: left;
+   margin-top: 5px;
+   position: relative;
+  margin-left: -60px;
+   
+}
+
+.cabeçalho-2 {
+
+    width: 990px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.Menu-logo {
+
+    border-bottom: 3px solid #72acdb;
+    height: 60px;
+}
+
+.Menu ul li {
+
+    display: inline-block;
+    color: #72acdb;
+    margin-left: 15px;
+    height: 28px;
+}
+
+.Menu ul li:hover {
+
+    border-bottom: 2px solid #090783;
+}
+
+.Menu ul li a:hover {
+
+    color: #090783;
+}
+
+.Menu ul li a {
+
+    color: #72acdb;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.Menu {
+
+    width: 100%;
+    float: left;
+}
+
+.colu-100 {
+
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+/*   Aqui inicia bloco do slider1 principal ---------------------------------------------------------*/
+
+button.slick-prev {
+
+    font-size: 0%;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+
+    font-size: 0%;
+    border: none;
+    width: 25px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    top: 35%;
+    right: 14%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+
+    overflow: hidden;
+}
+
+.slick-dots li button{
+
+    font-size: 0%;
+    border: 2px solid rgb(149, 158, 157);
+    width: 14px;
+    height: 14px;
+    background: rgb(149, 158, 157);
+    opacity: 2;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.slick-dots{
+
+    margin: 0% auto;
+    width: 50%;
+    position: absolute;      
+    left: 45%;
+    top: 440px;
+}
+
+
+
+li.slick-active button{
+
+    background: rgb(22, 22, 21);
+    border: 2px rgb(22, 22, 21) ;
+}
+
+.slick-dots li{
+
+    padding-left: 10px;
+    display: inline-block;
+}
+
+
+/*   Aqui inicia bloco do texto do lançamento ---------------------------------------------*/
+
+.texto-destaque{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto-destaque h1{
+
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(24, 73, 146);
+}
+
+.texto-destaque p {
+
+    color: rgb(64, 58, 70);
+}
+
+/*   Aqui inicia bloco do slider2 lançamento ------------------------------------------------------*/
+
+.colu-990{
+    width: 900px;
+    float: left;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.slider-lancamento img{
+    
+    float: left;
+    border-radius: 5px;
+    margin-left: 20px;
+   
+}
+
+/*   Aqui inicia bloco do texto pré-lançamento ------------------------------------------------------*/
+
+.texto-2{
+
+    text-align: center;
+    margin-top: 60px;
+}
+
+.texto-pre-lancamento h1{
+
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(24, 73, 146);
+}
+
+.texto-pre-lancamento p {
+
+    color: rgb(64, 58, 70);
+}
+
+/*   Aqui inicia bloco do slider3 pré-lançamento ------------------------------------------------------*/
+
+.colu-990{
+    width: 900px;
+    float: left;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.slider-pre-lancamento img{
+    
+    float: left;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+/*   Aqui inicia bloco do texto de premio ------------------------------------------------------*/
+
+.texto-premio{
+
+    text-align: center;
+    margin-top: 60px;
+}
+
+.texto-premio h1{
+
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(24, 73, 146);
+}
+
+.texto-premio p {
+
+    color: rgb(64, 58, 70);
+}
+
+/*   Aqui inicia bloco do animação de premio ------------------------------------------------------*/
+
+.animacao-premio{
+
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    background-color: transparent;
+    background-image: linear-gradient( transparent 10%, #40BA8D 60%, #5d5e65);
+
+}
+
+.imagem-excalibur img{
+
+    height: 500px;
+    display: flex;
+}
+
+.imagem-excalibur img:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.imagem-linha-premio{
+
+    display: flex;
+    height: 500px;
+    margin-top: 0 auto;
+    margin-left: -10px;
+}
